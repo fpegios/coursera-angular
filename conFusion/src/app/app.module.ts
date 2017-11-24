@@ -9,7 +9,8 @@ import {
   MatCardModule,
   MatCheckboxModule,
   MatChipsModule,
-  MatListModule
+  MatListModule,
+  MatGridListModule
 } from "@angular/material";
 import { FlexLayoutModule } from '@angular/flex-layout';
 
@@ -35,6 +36,7 @@ import { MenuComponent } from './menu/menu.component';
     MatCheckboxModule,
     MatChipsModule,
     MatListModule,
+    MatGridListModule,
     FlexLayoutModule
   ],
   providers: [],
