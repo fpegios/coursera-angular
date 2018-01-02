@@ -3,6 +3,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { ReactiveFormsModule } from '@angular/forms';
+
 import {
   MatToolbarModule,
   MatButtonModule,
@@ -12,7 +14,10 @@ import {
   MatListModule,
   MatGridListModule,
   MatDialogModule,
-  MatInputModule
+  MatSlideToggleModule,
+  MatSelectModule,
+  MatInputModule,
+  MatFormFieldModule
 } from "@angular/material";
 import { FlexLayoutModule } from '@angular/flex-layout';
 
@@ -59,9 +64,13 @@ import { LoginComponent } from './login/login.component';
     MatListModule,
     MatGridListModule,
     MatDialogModule,
+    MatSlideToggleModule,
+    MatSelectModule,
     MatInputModule,
+    MatFormFieldModule,
     FlexLayoutModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [ DishService,
     PromotionService,
